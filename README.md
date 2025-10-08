@@ -5,7 +5,7 @@
 - Cloud Provider: Google Cloud (GCP)
 
 ## Video recording: 
-- Zoom: 
+- Zoom Link: https://drive.google.com/file/d/1GO7fymaPmUclEr3oFGzICWzjs9BBjwJr/view?usp=sharing
 
 ## Steps
 ### 1. VM Creation
