@@ -69,5 +69,7 @@
   
 
 ### 5. Public IP Access
-URL: http://XX.XX.XXX.XXX:5003  
-[screenshot]
+- Copy the external IP address that was provided when creating the VM
+- Add 5003 to the external IP address to make it public
+  
+<img width="612" height="308" alt="Screen Shot 2025-10-08 at 6 15 01 PM" src="https://github.com/user-attachments/assets/8edddfcb-5bf7-4b18-9112-5b8a9eac89d9" />
