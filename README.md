@@ -19,7 +19,15 @@
 
 
 ### 2. Networking (Port 5003 Open)
-[screenshot]
+- Create a new firewall rule to allow traffic to come into Port 5003
+- Give the rule a name and a description
+- For the **Target**, select **All instances in the network**
+- For the Source IPv4 Range, enter the range **0.0.0.0/0**, which allows traffic from any external IP address to come in
+- Under specified protocols and ports, selcect **TCP** and enter in **5003**
+- Create the new rule and make sure it is active
+
+ <img width="753" height="112" alt="Screen Shot 2025-10-08 at 2 42 14 PM" src="https://github.com/user-attachments/assets/cc9308c7-337f-44f5-a47f-441d11f291ce" />
+
 
 ### 3. OS Update + Python Install
 [commands + screenshot]
