@@ -5,7 +5,7 @@
 - Cloud Provider: Google Cloud (GCP)
 
 ## Video recording: 
-- Zoom/Loom: 
+- Zoom: 
 
 ## Steps
 ### 1. VM Creation
@@ -30,10 +30,43 @@
 
 
 ### 3. OS Update + Python Install
-[commands + screenshot]
+- Click on the SSH to update the operating system
+- Enter in the code:
+- ```bash
+   sudo apt update && sudo apt upgrade -y
+   ```
+- Intsall git, python3, and pip by entering in the code: 
+   ```bash
+   sudo apt install git python3 python3-pip python3.13-venv -y
+   ```  
+<img width="560" height="116" alt="Screen Shot 2025-10-08 at 3 52 39 PM" src="https://github.com/user-attachments/assets/07b11761-556e-4d9d-90e7-8c02972185fb" />
+
+<img width="618" height="128" alt="Screen Shot 2025-10-08 at 3 54 29 PM" src="https://github.com/user-attachments/assets/b8947e33-8cd6-421a-9935-5ee3a6d971bc" />
 
 ### 4. Flask App Running
-[screenshot of terminal + browser]
+- After installing python, copy the flask template:
+```'bash
+   git clone https://github.com/hantswilliams/HHA-504-2025-FlaskStarter.git
+   cd HHA-504-2025-FlaskStarter/
+   ```
+-  Create a new virutal environment: 
+    ````
+    python3 -m venv venv
+- Activate the virtual environment:
+  ```'bash
+  source venv/bin/activate
+- Install the requirements:
+    ```'bash
+    pip install -r requirements.txt
+- Run the app on port 5003
+  ```'bash
+  python3 app.py
+
+- The flask application is now running
+  
+  <img width="822" height="408" alt="Screen Shot 2025-10-08 at 4 05 29 PM" src="https://github.com/user-attachments/assets/d84b835d-6e8f-4df2-abed-7b1ac38c8d51" />
+
+  
 
 ### 5. Public IP Access
 URL: http://XX.XX.XXX.XXX:5003  
